@@ -1,14 +1,20 @@
 {
   "root": true,
   "extends": "airbnb",
+  "parser": "babel-eslint",
   "plugins": [
+    "flowtype",
     "react",
     "jsx-a11y",
     "import"
   ],
   "rules": {
     "react/jsx-filename-extension": [1, {
-      "extensions": [".js", ".jsx"]
+      "extensions": [".js", ".jsx"],
+      "import/no-extraneous-dependencies": 0,
+      "import/extensions": 0,
+      "import/no-unresolved": 0,
+      "global-require": 0
     }]
   }
 }
