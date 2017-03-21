@@ -47,3 +47,5 @@ const index = () =>
 
 
 AppRegistry.registerComponent('starter', () => index);
+
+export default index;

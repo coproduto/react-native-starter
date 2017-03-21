@@ -14,7 +14,7 @@
 .*/Libraries/react-native/React.js
 .*/Libraries/react-native/ReactNative.js
 
-; NativeBase usually uses a different version of Flow, so we ignore it
+; NativeBase does not use Flow, so we ignore it
 ; and some components it uses which also don't play nice.
 
 .*/node_modules/native-base/.*
